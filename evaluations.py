@@ -75,6 +75,7 @@ if __name__ == "__main__":
     net = network2.load(header.network)
     histogram, forms = process_project(path, net)
     create_report(path, args.instructor, args.course, args.term, histogram, forms)
+    print "Report is located at %s/report.pdf" % (path)
 
 
 
