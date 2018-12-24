@@ -12,7 +12,7 @@ positional arguments:
   project_name  Name of the project
   eval_scan     Path to scanned pdf
   instructor    Name of instructor
-  course        Couse name
+  course        Course name
   term          The eval term
 
 optional arguments:
