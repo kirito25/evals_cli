@@ -3,7 +3,6 @@ import numpy as np
 import cv2
 import contour
 from score_bubbles import *
-import sys
 import network2
 import shutil
  
@@ -126,8 +125,6 @@ def longforms(longform_path, dest, decide=False):
  
 if __name__ == '__main__':
     import sys
-    import pprint
-    import header
     #net = network2.load(header.network)
     #pprint.pprint(analyze_pdf(sys.argv[1], net, debug=True))
     longforms(sys.argv[1], "/tmp")

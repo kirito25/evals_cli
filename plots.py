@@ -1,4 +1,4 @@
-import numpy, os, pylab, subprocess, sys
+import numpy, pylab
 
 def histogram(scores, question, path):
     """

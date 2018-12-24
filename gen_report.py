@@ -1,4 +1,3 @@
-import numpy, os, pylab, subprocess, sys
 
 def generate_latex(instructor, course, term, histograms, longforms):
     """

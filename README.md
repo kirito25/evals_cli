@@ -28,4 +28,8 @@ optional arguments:
 - pylab
 - subprocess
 - imutils 
+- json
+
+### Package Dependencies
+- pdflatex
 

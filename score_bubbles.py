@@ -49,7 +49,6 @@ def score_bubbles(img, net, bubbles, number_of_choices=5):
 if __name__ == '__main__':
     import contour
     import pprint
-    import cPickle
     import network2
     import sys
     import header

@@ -67,7 +67,7 @@ if __name__ == "__main__":
     parser.add_argument("project_name", help="Name of the project")
     parser.add_argument("eval_scan", help="Path to scanned pdf")
     parser.add_argument("instructor", help="Name of instructor")
-    parser.add_argument("course", help="Couse name")
+    parser.add_argument("course", help="Course name")
     parser.add_argument("term", help="The eval term")
     parser.add_argument("--dest", help="Directory to create project in (default is \'.\')", default=".")
     args = parser.parse_args()
