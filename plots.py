@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import numpy, pylab
 
 def histogram(scores, question, path):
